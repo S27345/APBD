@@ -9,7 +9,7 @@ namespace ConsoleApp1
 {
     public class MX
     {
-        public int getMax(int[] ints)
+        public static int getMax(int[] ints)
         {
             int max = int.MinValue;
 

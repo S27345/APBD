@@ -11,5 +11,6 @@ internal class Program{
 
         AV aV = new AV();
         Console.WriteLine("Average: " + AV.getAverage(new int[] { 2, 6, 2, 5, 80, 74, 123 }));
+        Console.WriteLine("Max: " + MX.getMax(new int[] { 5,8,123,50,310,48,10}));
     }
 }

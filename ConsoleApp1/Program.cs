@@ -5,5 +5,7 @@ internal class Program{
         Console.WriteLine("Hello, World!");
         var a = 2;
         var b = 3;
+
+        Console.WriteLine(a+b);
     }
 }

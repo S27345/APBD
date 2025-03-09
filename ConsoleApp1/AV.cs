@@ -9,15 +9,15 @@ namespace ConsoleApp1
 {
     public class AV
     {
-        public static float getAverage(int[] ints)
+        public static float getAverage(int[] intss)
         {
             int sum = 0;
 
-            for (int i = 0; i < ints.Length; i++)
+            for (int i = 0; i < intss.Length; i++)
             {
-                sum += ints[i];
+                sum += intss[i];
             }
-            return sum / ints.Length;
+            return sum / intss.Length;
         }
     }
 }

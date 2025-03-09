@@ -9,7 +9,7 @@ namespace ConsoleApp1
 {
     public class AV
     {
-        public float getAverage(int[] ints)
+        public static float getAverage(int[] ints)
         {
             int sum = 0;
 
